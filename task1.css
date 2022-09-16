@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css task1</title>
+    <style>
+
+        .container
+        {
+           
+            text-align: center;
+            justify-content: center;
+            margin: 50px;
+            border: 3px dashed gray;
+        }
+
+        .margin
+        {
+            padding: 10px 50px 50px 50px;
+            background-color: gray;
+        }
+        .border
+        {
+            padding: 10px 50px 50px 50px;
+            background-color: red;
+        }
+        .padding
+        {
+            padding:10px 50px 50px 50px;
+            background-color: aqua;
+        }
+
+        .content
+        {
+            padding: 20px;
+            background-color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+    
+        <h2>The Css Box Model</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nulla voluptate debitis eos reprehenderit facilis perspiciatis accusantium? Reiciendis, necessitatibus accusamus.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores eius, sint quidem tenetur quis, facilis labore quibusdam odit cum mollitia nihil. Hic magni, voluptates dolorem ab perferendis recusandae facilis quo!</p>
+        <div class="container">
+            <div class="margin">
+                <p>margin</p>
+                <div class="border">
+                    <p>border</p>
+                    <div class="padding">
+                        <p>padding</p>
+                        <div class="content">
+                            <p>content</p>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+</body>
+</html>
